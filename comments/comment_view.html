@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comment System</title>
+        <link rel="stylesheet" href="app.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="blog-comment-section">
+            <div class="blog-comment-section-top">
+                <div class="blog-comment-title">Comments: 10</div>
+                <div class="blog-comment-like">13</div>
+            </div>
+            
+            <div class="leave-a-comment-section comment-form">
+                <div class="leave-a-comment-title">Leave a Comment</div>
+                <div class="enter-comment">
+                    <textarea name="comment" class="leave-a-comment" id="leave-a-comment" placeholder="Leave a comment..."></textarea>
+                </div>
+                <div class="submit-comment" id="submit-comment" onclick="Comments.addSubmit()">Submit</div>
+            </div>
+            <div id="content" class="blog-comment-section-comments"></div>
+        </div>
+        <script src="comments.js"></script>
+        <script src="commentcontroller.js"></script>
+    </body>
+</html>
