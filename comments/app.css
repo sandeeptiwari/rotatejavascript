@@ -5,6 +5,15 @@
     padding-top: 20px;
 }
 
+.blog-comment-reply-section {
+    border-top: 1px solid #78abcd;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-top: 20px;
+    border-bottom: 1px solid #78abcd;
+}
+
 .blog-comment-section-top {
     display: -webkit-box;
     display: -moz-box;
