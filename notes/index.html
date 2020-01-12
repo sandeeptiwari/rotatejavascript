@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note</title>
+    <link rel="stylesheet" href="css/note.css" />
+</head>
+<body>
+<h2>Notes Manager</h2>
+<div id="help">
+    <p>
+        <strong>Instruction:</strong> Add notes to the list typing into the box and clicking "Add".
+    </p>
+    <p>
+        Ex.
+        <a class="note" href="#">Some notes taken</a>
+    </p>
+</div>
+<p>
+    <input id="open_help" type="button" value="help">
+</p>
+<div class="container">
+    <input type="text" size="75" id="note" name="note">
+    <input type="button" id="add_button" value="Add">
+    <div class="note_container"></div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/noteController.js"></script>
+</body>
+</html>

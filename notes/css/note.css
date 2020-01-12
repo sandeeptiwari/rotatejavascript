@@ -1,0 +1,38 @@
+.note_container {
+    border: 1px solid #999;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.note_container.active {
+    border: 1px solid yellow;
+}
+
+.note {
+    display: block;
+    font-size: 16px;
+    line-height: 23px;
+    color: #006;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+.note:nth-child(odd) {
+    background-color: #def;
+}
+
+.note.highlighted {
+    background-color: yellow;
+}
+
+#help {
+    display: none;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    border: 2px solid #000;
+    background-color: #eee;
+    padding: 15px;
+}
