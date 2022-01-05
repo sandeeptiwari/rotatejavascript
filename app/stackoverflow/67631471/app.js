@@ -1,0 +1,111 @@
+const data =
+    [
+        {
+            iTicketId: "603ca7b563a81c7118e3c4a9",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c5c071e07a0983498af6",
+            iWpKey: "FULL_HOUSE",
+            nPrize: 1,
+            nWinnings: 19,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Full_House.png",
+            sWpName: "Full House",
+            _id: "60a4c401e1b8ae0011ca0144",
+        },
+        {
+            iTicketId: "602f8b9c96a7bd4201e88018",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c64b71e07a0983498af8",
+            iWpKey: "FIRST_ROW",
+            nPrize: 1,
+            nWinnings: 9.5,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Top_Line.png",
+            sWpName: "First Row",
+            _id: "60a4c315e1b8ae0011ca0133"
+        },
+        {
+            iTicketId: "603ca7b563a81c7118e3c4a9",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c65f71e07a0983498af9",
+            iWpKey: "SECOND_ROW",
+            nPrize: 1,
+            nWinnings: 9.5,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Middle_Line.png",
+            sWpName: "Second Row",
+            _id: "60a4c2e0e1b8ae0011ca012f"
+        },
+        {
+            iTicketId: "602f8d3c96a7bd4201eb7103",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c66f71e07a0983498afa",
+            iWpKey: "THIRD_ROW",
+            nPrize: 1,
+            nWinnings: 19,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Bottom_Line.png",
+            sWpName: "Third Row",
+            _id: "60a4c1f1e1b8ae0011ca011b"
+        },
+        {
+            iTicketId: "602f8d3c96a7bd4201eb7103",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c6a571e07a0983498afb",
+            iWpKey: "FOUR_CORNERS",
+            nPrize: 1,
+            nWinnings: 19,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Four_corners.png",
+            sWpName: "Four Corner",
+            _id: "60a4c1f1e1b8ae0011ca011c"
+        },
+        {
+            iTicketId: "602f8e0c96a7bd4201eec8ae",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c6c171e07a0983498afc",
+            iWpKey: "EARLY_FIVE",
+            nPrize: 1,
+            nWinnings: 6.33,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Early_five.png",
+            sWpName: "Early 5",
+            _id: "60a4bff6e1b8ae0011ca00f8"
+        },
+        {
+            iTicketId: "603ca7b563a81c7118e3c4a9",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c6c171e07a0983498afc",
+            iWpKey: "EARLY_FIVE",
+            nPrize: 2,
+            nWinnings: 6.33,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Early_five.png",
+            sWpName: "Early 5",
+            _id: "60a4c05ae1b8ae0011ca0101"
+        },
+        {
+            iTicketId: "602f8bd496a7bd4201e9166e",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c6c171e07a0983498afc",
+            iWpKey: "EARLY_FIVE",
+            nPrize: 3,
+            nWinnings: 3.17,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Early_five.png",
+            sWpName: "Early 5",
+            _id: "60a4c06be1b8ae0011ca0103"
+        },
+        {
+            iTicketId: "60388d38e495619945273ebc",
+            iUserId: "609cfda75f02f20011d30035",
+            iWpId: "5f06c6c171e07a0983498afc",
+            iWpKey: "EARLY_FIVE",
+            nPrize: 3,
+            nWinnings: 3.17,
+            sUsername: "vivek",
+            sWpImage: "winning-patterns/Early_five.png",
+            sWpName: "Early 5",
+            _id: "60a4c06be1b8ae0011ca0104"
+        }
+    ]

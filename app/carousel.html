@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/carousel/carousel.css"/>
+</head>
+<body>
+<div class="carousel">
+    <button class="carousel__button carousel__button--left is-hidden">
+        <img src="../images/left.svg" alt="">
+    </button>
+    <div class="carousel__track-container">
+        <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+                <img
+                        class="carousel__image"
+                        src="../images/1.jpg"
+                        alt="carousel image"
+                />
+            </li>
+            <li class="carousel__slide">
+                <img
+                        class="carousel__image"
+                        src="../images/2.jpg"
+                        alt="carousel image"
+                />
+            </li>
+            <li class="carousel__slide">
+                <img
+                        class="carousel__image"
+                        src="../images/3.jpg"
+                        alt="carousel image"
+                />
+            </li>
+        </ul>
+    </div>
+
+    <button class="carousel__button carousel__button--right">
+        <img src="../images/right.svg" alt="">
+    </button>
+
+    <div class="carousel__nav">
+        <button class="carousel__indicator current-dot"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+    </div>
+</div>
+
+<script src="../js/carousel/carousel.js"></script>
+</body>
+</html>

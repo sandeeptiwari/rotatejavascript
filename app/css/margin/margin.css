@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bfbfbf;
+}
+
+header {
+    padding: 2em;
+    background: #fff;
+    display: flex;
+}
+
+.menu-image {
+    width: 50px;
+    height: 50px;
+}
+
+.nav {
+    flex-grow: 1;
+}
+
+.nav__list {
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav__list a {
+    line-height: 3;
+    color: coral;
+}
+
+.nav__list a:hover,
+.nav__list a:focus {
+    color: pink;
+}
+
+.nav__list li:nth-of-type(6) {
+    margin-left: auto;
+}
+
+.nav__list li:nth-of-type(7) {
+}
